@@ -7,9 +7,15 @@
     "start": "nodemon server.js --exec babel-node --presets es2015,stage-2"
   },
   "author": "Savidya Sathyani <savidya19@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SavidyaSathyani/personal_data_app.git"
+  },
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "promise": "^8.0.1",
+    "random-int": "^1.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
