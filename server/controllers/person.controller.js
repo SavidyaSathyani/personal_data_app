@@ -1,4 +1,4 @@
-'use strict' 
+'use strict'
 
 import Person from '../models/person';
 import Logger from '../helpers/logger';
@@ -9,13 +9,9 @@ class PersonController {
     getRandom(req, res, next) {
         try {
             const person = new Person();
-            let randomId = RandomInt(1,Constants.personCount);
+            let randomId = RandomInt(1, Constants.personCount);
             person.getById({ id: randomId }).then((result) => {
-                if (result) {
-                    res.status(200).send(result);
-                } else {
-                    res.status(204).send("No data");
-                }
+                res.status(200).send(result[0]);
             }).catch((err) => {
                 Logger.log(`Unable to load data. \n ${err}`);
                 res.status(500).send('Something broke!')
