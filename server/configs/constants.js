@@ -1,6 +1,6 @@
 'use strict'
 
-let personalData = require('../data/personalData');
+let personalData = require('../data/users');
 let personalCount = personalData.length;
 
 let dataConfigs = {

@@ -1,0 +1,24 @@
+.table .profile-pic {
+    width: 40%;
+}
+
+.table .profile-pic img {
+    width: 100%;
+    height: 250%;
+}
+
+.time-out-para {
+    padding: 10px 0px 0px 10px;
+}
+
+.time {
+    color: black;
+}
+
+.time-critical {
+    color: red;
+}
+
+.container-fluid nav {
+    margin-top: 10px;
+}
