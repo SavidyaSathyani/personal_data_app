@@ -1,11 +1,11 @@
 # Profiles
 
-Profiles is a web appliacation view profiles of random people. This application will refresh automatically every 20 seconds and display a new profile on the screen.
+Profiles is a web appliacation view profiles of random people. This application will be refreshed according constant value specified in person-app\public\js\index.js and display a new profile on the screen. You can change the refresh interval by changing the constant value and restarting the application.
 
 # New Features!
 
-- Automatic refresh isn every 20 second
-- Manual refresh t0 view a new profile
+- Automatic refresh to a spefic time intervals.
+- Manual refresh to view a new profile
 
 You can also:
   - See a timer on the screen to indicate the next refersh time
@@ -23,7 +23,7 @@ Profiles uses a number of open source projects to work properly:
 
 Profiles requires [Node.js](https://nodejs.org/) v8+ to run.
 
-Clone the project and Install the dependencies and devDependencies and start the server.
+Clone the project and install the dependencies and dev Dependencies and start the server.
 
 ```sh
 $ cd personal_data_app
@@ -38,11 +38,11 @@ $ cd personal_data_app
 $ npm test
 ```
 
-Now you can access the website using : http://localhost:3000/
+Now you can access the website using : http://localhost:{{port}}/
 
 License
 ----
-
+MIT
 
 **Free Software**
 
