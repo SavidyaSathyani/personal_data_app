@@ -3,7 +3,6 @@ import os from 'os';
 class Logger {
     constructor() {
     }
-
     static log(message, level = 'ERR') {
         let errMsg = {
             level: level,
