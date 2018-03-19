@@ -12,7 +12,7 @@
     "type": "git",
     "url": "https://github.com/SavidyaSathyani/personal_data_app.git"
   },
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "express": "4.16.3",
     "http": "0.0.0",
