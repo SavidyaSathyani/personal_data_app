@@ -4,7 +4,7 @@
   "description": "An application for view personal data ",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js --exec babel-node --presets es2015,stage-2",
+    "start": "nodemon server.js --exec babel-node --presets env",
     "test": "mocha --compilers js:babel-register"
   },
   "author": "Savidya Sathyani <savidya19@gmail.com>",
@@ -23,8 +23,6 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-stage-2": "^6.24.1",
     "babel-register": "^6.26.0",
     "mocha": "^5.0.4",
     "nodemon": "^1.17.2"
