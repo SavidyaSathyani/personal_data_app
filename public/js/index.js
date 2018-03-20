@@ -15,7 +15,6 @@ angular.module('personApp', [])
         function loadRandomData() {
             indexService.getPerson().then(function (info) {
                 $scope.person = info;
-                console.log($scope.person);
             }).catch(function (exception) {
                 console.error(exception);
             });
